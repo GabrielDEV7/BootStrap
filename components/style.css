@@ -1,0 +1,38 @@
+body {
+  padding-top: 75px;
+}
+.nav-btt {
+  margin: -1px;
+}
+.box-shadow {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05), 0 4px 8px 0 rgba(0, 0, 0, 0.05);
+}
+.h-100px {
+  height: 100px;
+}
+.bg-quote {
+  background: url("/components/assets/img-navbar/bg-quote.jpg") center center;
+  background-size: cover;
+}
+
+@media (max-width: 767px) {
+  .text-min {
+    font-size: 2.5rem;
+  }
+  .media-text .display-4 {
+    font-size: 2.5rem;
+  }
+  body {
+    padding: 0px;
+  }
+  .fixed-top { 
+    position: relative;
+  }
+}
+.list-divider li + li{
+     border-top: 1px solid rgba(0, 0, 0, 0.04);
+
+}
+.list-divider li {
+  padding: 1rem;
+}
